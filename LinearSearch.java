@@ -33,5 +33,4 @@ Worst case → O(n)
 
 ✅ SC: O(1)
 No extra data structures.
- * 
  */

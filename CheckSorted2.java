@@ -23,8 +23,19 @@ public class CheckSorted2 {
     }
 }
 
-/*Best case: If the first comparison fails, the method returns immediately → O(1)
+/*
+✅ TC:
 
+Best case: O(1)
+Worst case: O(n)
+
+Best case: If the first comparison fails, the method returns immediately → O(1)
 Worst case: Array is fully sorted, so we check all n - 1 pairs → O(n) 
 
+
+
+Space Complexity (SC)
+We are not using any extra data structures.
+
+✅ SC: O(1)
 SC: O(1) We are not using any extra data structures. */
