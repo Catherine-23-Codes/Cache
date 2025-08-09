@@ -17,3 +17,8 @@ public class Largest1 {
         System.out.println("The largest elem is:"+largest);
     }
 }
+
+/*
+ * T.C = O(N log N)
+ * S.C = O(1)
+ */
