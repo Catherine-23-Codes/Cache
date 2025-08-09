@@ -10,7 +10,8 @@ public class LinearSearch {
     public static void main(String[] args) {
         int[] arr={1,5,2,64,7,9,24,72};
         int target=7;
-        int index=LinearSearchArr(arr, target, target);
+        int n=arr.length;
+        int index=LinearSearchArr(arr, target, n);
         if(index!=-1){
             System.out.println("The target " +target+ " is found at position:"+index );
         }else{
