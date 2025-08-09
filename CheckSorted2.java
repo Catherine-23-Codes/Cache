@@ -22,3 +22,9 @@ public class CheckSorted2 {
         }
     }
 }
+
+/*Best case: If the first comparison fails, the method returns immediately → O(1)
+
+Worst case: Array is fully sorted, so we check all n - 1 pairs → O(n) 
+
+SC: O(1) We are not using any extra data structures. */
